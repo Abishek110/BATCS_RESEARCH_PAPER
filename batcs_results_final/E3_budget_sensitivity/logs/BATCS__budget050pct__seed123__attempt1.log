@@ -1,0 +1,159 @@
+====================================================================================================
+E3 WORKER | method=BATCS | budget_ratio=0.50 | seed=123
+PID=21046 | device=mps
+E1 SHA256=40249a6d3407865692eca22841a7940445642c9661322ab3cbd3f4232a578410
+MPS fallback: enabled
+====================================================================================================
+model=0.723516 MB | B0=542.636633 MB | FedAvg envelope=723.515511 MB
+BATCS            seed=123 round=01/50 selected=10 accepted= 5 acc= 10.56% comm=   10.86 MB
+    Stage2=ucb_protected_warmup desired=5 strong=10 dynamic_pool=10 accepted=5 percentile=50.0 threshold=0.00000 separation=0.095
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=02/50 selected=10 accepted= 5 acc= 10.00% comm=   21.71 MB
+    Stage2=ucb_protected_warmup desired=5 strong=10 dynamic_pool=10 accepted=5 percentile=50.0 threshold=0.00000 separation=0.115
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=03/50 selected=10 accepted= 5 acc= 10.04% comm=   32.57 MB
+    Stage2=ucb_protected_warmup desired=5 strong=10 dynamic_pool=10 accepted=5 percentile=50.0 threshold=0.00000 separation=0.074
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=04/50 selected=10 accepted= 5 acc= 11.31% comm=   43.42 MB
+    Stage2=ucb_protected_warmup desired=5 strong=10 dynamic_pool=10 accepted=5 percentile=50.0 threshold=0.00000 separation=0.075
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=05/50 selected=10 accepted= 5 acc= 14.79% comm=   54.28 MB
+    Stage2=ucb_protected_warmup desired=5 strong=10 dynamic_pool=10 accepted=5 percentile=50.0 threshold=0.00000 separation=0.062
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=06/50 selected=10 accepted= 5 acc= 15.53% comm=   65.14 MB
+    Stage2=ucb_protected_warmup desired=5 strong=10 dynamic_pool=10 accepted=5 percentile=50.0 threshold=0.00000 separation=0.081
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=07/50 selected=10 accepted= 5 acc= 19.30% comm=   75.99 MB
+    Stage2=ucb_protected_warmup desired=5 strong=10 dynamic_pool=10 accepted=5 percentile=50.0 threshold=0.00000 separation=0.074
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=08/50 selected=10 accepted= 5 acc= 22.02% comm=   86.85 MB
+    Stage2=ucb_protected_warmup desired=5 strong=10 dynamic_pool=10 accepted=5 percentile=50.0 threshold=0.00000 separation=0.076
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=09/50 selected=10 accepted= 5 acc= 18.09% comm=   97.70 MB
+    Stage2=uncertainty_conservative desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=0.01138 separation=0.165
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=10/50 selected=10 accepted= 5 acc= 19.08% comm=  108.56 MB
+    Stage2=uncertainty_conservative desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=-0.13919 separation=0.137
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=11/50 selected=10 accepted= 5 acc= 21.83% comm=  119.42 MB
+    Stage2=uncertainty_conservative desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=-0.34749 separation=0.129
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=12/50 selected=10 accepted= 5 acc= 21.28% comm=  130.27 MB
+    Stage2=uncertainty_conservative desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=-0.20981 separation=0.101
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=13/50 selected=10 accepted= 5 acc= 23.67% comm=  141.13 MB
+    Stage2=uncertainty_conservative desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=0.01516 separation=0.176
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=14/50 selected=10 accepted= 5 acc= 22.82% comm=  151.99 MB
+    Stage2=uncertainty_conservative desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=0.02568 separation=0.094
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=15/50 selected=10 accepted= 5 acc= 23.84% comm=  162.84 MB
+    Stage2=uncertainty_conservative desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=0.19168 separation=0.123
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=16/50 selected=10 accepted= 5 acc= 22.84% comm=  173.70 MB
+    Stage2=uncertainty_conservative desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=0.28107 separation=0.073
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=17/50 selected=10 accepted= 5 acc= 22.46% comm=  184.55 MB
+    Stage2=uncertainty_conservative desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=0.19949 separation=0.079
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=18/50 selected=10 accepted= 5 acc= 25.37% comm=  195.41 MB
+    Stage2=uncertainty_conservative desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=0.24838 separation=0.128
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=19/50 selected=10 accepted= 5 acc= 27.77% comm=  206.27 MB
+    Stage2=uncertainty_conservative desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=0.63189 separation=0.057
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=20/50 selected=10 accepted= 5 acc= 26.75% comm=  217.12 MB
+    Stage2=uncertainty_conservative desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=0.92893 separation=0.185
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=21/50 selected=10 accepted= 5 acc= 23.07% comm=  227.98 MB
+    Stage2=uncertainty_conservative desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=0.81219 separation=0.135
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=22/50 selected=10 accepted= 5 acc= 21.17% comm=  238.83 MB
+    Stage2=uncertainty_conservative desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=1.20631 separation=0.181
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=23/50 selected=10 accepted= 6 acc= 31.94% comm=  250.41 MB
+    Stage2=uncertainty_conservative desired=6 strong=5 dynamic_pool=8 accepted=6 percentile=50.0 threshold=0.81708 separation=0.051
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=4.3411 MB = 11.5796 MB
+BATCS            seed=123 round=24/50 selected=10 accepted= 5 acc= 32.95% comm=  261.27 MB
+    Stage2=uncertainty_conservative desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=0.94822 separation=0.161
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=25/50 selected=10 accepted= 5 acc= 31.17% comm=  272.13 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=1.45987 separation=0.108
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=26/50 selected=10 accepted= 5 acc= 32.75% comm=  282.98 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=1.24426 separation=0.170
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=27/50 selected=10 accepted= 5 acc= 35.54% comm=  293.84 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=1.38926 separation=0.137
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=28/50 selected=10 accepted= 5 acc= 23.64% comm=  304.69 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=1.59947 separation=0.151
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=29/50 selected=10 accepted= 5 acc= 34.16% comm=  315.55 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=1.54015 separation=0.135
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=30/50 selected=10 accepted= 5 acc= 35.91% comm=  326.41 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=1.89902 separation=0.171
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=31/50 selected=10 accepted= 5 acc= 34.72% comm=  337.26 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=2.08932 separation=0.057
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=32/50 selected=10 accepted= 5 acc= 34.75% comm=  348.12 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=2.05778 separation=0.161
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=33/50 selected=10 accepted= 5 acc= 32.92% comm=  358.97 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=1.96545 separation=0.181
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=34/50 selected=10 accepted= 5 acc= 32.67% comm=  369.83 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=1.95231 separation=0.158
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=35/50 selected=10 accepted= 5 acc= 37.91% comm=  380.69 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=1.90977 separation=0.081
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=36/50 selected=10 accepted= 5 acc= 35.13% comm=  391.54 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=1.81658 separation=0.168
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=37/50 selected=10 accepted= 5 acc= 37.79% comm=  402.40 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=1.74432 separation=0.093
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=38/50 selected=10 accepted= 5 acc= 41.68% comm=  413.25 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=2.13456 separation=0.144
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=39/50 selected=10 accepted= 5 acc= 42.50% comm=  424.11 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=2.17415 separation=0.090
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=40/50 selected=10 accepted= 5 acc= 42.91% comm=  434.97 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=2.16257 separation=0.050
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=41/50 selected=10 accepted= 5 acc= 42.39% comm=  445.82 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=2.29741 separation=0.144
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=42/50 selected=10 accepted= 5 acc= 42.51% comm=  456.68 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=2.47850 separation=0.018
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=43/50 selected=10 accepted= 5 acc= 42.02% comm=  467.54 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=2.35005 separation=0.108
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=44/50 selected=10 accepted= 5 acc= 43.67% comm=  478.39 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=2.72378 separation=0.144
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=45/50 selected=10 accepted= 5 acc= 43.92% comm=  489.25 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=2.82854 separation=0.162
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=46/50 selected=10 accepted= 5 acc= 44.42% comm=  500.10 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=2.53307 separation=0.102
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=47/50 selected=10 accepted= 5 acc= 44.60% comm=  510.96 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=3.02031 separation=0.095
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=48/50 selected=10 accepted= 5 acc= 47.50% comm=  521.82 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=2.40535 separation=0.144
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=49/50 selected=10 accepted= 5 acc= 46.74% comm=  532.67 MB
+    Stage2=weak_score_separation desired=5 strong=5 dynamic_pool=8 accepted=5 percentile=50.0 threshold=2.82888 separation=0.134
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=3.6176 MB = 10.8561 MB
+BATCS            seed=123 round=50/50 selected=10 accepted= 3 acc= 44.88% comm=  542.08 MB
+    Stage2=budget_limited desired=3 strong=5 dynamic_pool=8 accepted=3 percentile=50.0 threshold=2.66692 separation=0.068
+    BATCS BUDGET: Downlink=7.2352 MB + Preview=0.0034 MB + AcceptedFull=2.1705 MB = 9.4091 MB
+    BATCS: budget cannot fund another complete Stage-1 downlink.
+[worker] SUCCESS | BATCS | budget=0.50 | seed=123 | acc=44.88% | MB=542.08 | rounds=50

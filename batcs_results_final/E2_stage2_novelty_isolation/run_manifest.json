@@ -1,0 +1,37 @@
+{
+  "e1_source_path": "/Volumes/Abishek Personal/Downloads/E1.py",
+  "e1_source_sha256": "40249a6d3407865692eca22841a7940445642c9661322ab3cbd3f4232a578410",
+  "e2_code_version": "1.0.0",
+  "e2_seeds": [
+    42,
+    123,
+    2024,
+    7,
+    2025
+  ],
+  "e2_methods": [
+    "UCB+Budget",
+    "BATCS-NoPredictor",
+    "BATCS"
+  ],
+  "nopredictor_maturity_mode": "grow",
+  "timestamp_unix": 1788592902.7590919,
+  "job_status": {
+    "UCB+Budget/42": true,
+    "UCB+Budget/123": true,
+    "UCB+Budget/2024": true,
+    "UCB+Budget/7": true,
+    "UCB+Budget/2025": true,
+    "BATCS-NoPredictor/42": true,
+    "BATCS-NoPredictor/123": true,
+    "BATCS-NoPredictor/2024": true,
+    "BATCS-NoPredictor/7": true,
+    "BATCS-NoPredictor/2025": true,
+    "BATCS/42": true,
+    "BATCS/123": true,
+    "BATCS/2024": true,
+    "BATCS/7": true,
+    "BATCS/2025": true
+  },
+  "all_jobs_valid": true
+}

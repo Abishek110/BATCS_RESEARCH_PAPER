@@ -1,0 +1,6 @@
+Method,Accuracy,Total_MB,Communication_Reduction_pct,Accuracy_per_MB
+FedAvg,42.51 ± 2.64,723.52 ± 0.00,0.00,0.0588
+Random+Budget,36.47 ± 2.78,535.40 ± 0.00,26.00,0.0681
+UCB,43.32 ± 2.16,723.52 ± 0.00,0.00,0.0599
+UCB+Budget,41.11 ± 3.34,535.40 ± 0.00,26.00,0.0768
+BATCS,41.83 ± 4.67,542.08 ± 0.00,25.08,0.0772

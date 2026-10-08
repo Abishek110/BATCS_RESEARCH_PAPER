@@ -1,0 +1,8 @@
+{
+  "method_a": "BATCS",
+  "method_b": "UCB+Budget",
+  "paired_runs": 5,
+  "accuracy_difference_mean_pp": 0.7160000000000011,
+  "communication_difference_mean_mb": 6.679486274719238,
+  "note": "Descriptive comparison only; BATCS is not forced to outperform the baseline, and no claim of guaranteed superiority is made."
+}

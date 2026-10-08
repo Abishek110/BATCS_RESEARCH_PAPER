@@ -1,0 +1,40 @@
+====================================================================================================
+E3 WORKER | method=UCB+Budget | budget_ratio=0.25 | seed=7
+PID=20801 | device=mps
+E1 SHA256=40249a6d3407865692eca22841a7940445642c9661322ab3cbd3f4232a578410
+MPS fallback: enabled
+====================================================================================================
+model=0.723516 MB | B0=452.197194 MB | FedAvg envelope=723.515511 MB
+UCB+Budget       seed=7 round=01/50 selected=10 accepted=10 acc= 10.00% comm=   14.47 MB
+UCB+Budget       seed=7 round=02/50 selected=10 accepted=10 acc= 10.00% comm=   28.94 MB
+UCB+Budget       seed=7 round=03/50 selected=10 accepted=10 acc= 14.66% comm=   43.41 MB
+UCB+Budget       seed=7 round=04/50 selected=10 accepted=10 acc= 13.52% comm=   57.88 MB
+UCB+Budget       seed=7 round=05/50 selected=10 accepted=10 acc= 15.12% comm=   72.35 MB
+UCB+Budget       seed=7 round=06/50 selected=10 accepted=10 acc= 20.93% comm=   86.82 MB
+UCB+Budget       seed=7 round=07/50 selected=10 accepted=10 acc= 20.22% comm=  101.29 MB
+UCB+Budget       seed=7 round=08/50 selected=10 accepted=10 acc= 21.46% comm=  115.76 MB
+UCB+Budget       seed=7 round=09/50 selected=10 accepted=10 acc= 23.35% comm=  130.23 MB
+UCB+Budget       seed=7 round=10/50 selected=10 accepted=10 acc= 21.81% comm=  144.70 MB
+UCB+Budget       seed=7 round=11/50 selected=10 accepted=10 acc= 19.44% comm=  159.17 MB
+UCB+Budget       seed=7 round=12/50 selected=10 accepted=10 acc= 22.96% comm=  173.64 MB
+UCB+Budget       seed=7 round=13/50 selected=10 accepted=10 acc= 27.93% comm=  188.11 MB
+UCB+Budget       seed=7 round=14/50 selected=10 accepted=10 acc= 25.95% comm=  202.58 MB
+UCB+Budget       seed=7 round=15/50 selected=10 accepted=10 acc= 28.37% comm=  217.05 MB
+UCB+Budget       seed=7 round=16/50 selected=10 accepted=10 acc= 28.41% comm=  231.52 MB
+UCB+Budget       seed=7 round=17/50 selected=10 accepted=10 acc= 30.38% comm=  246.00 MB
+UCB+Budget       seed=7 round=18/50 selected=10 accepted=10 acc= 30.06% comm=  260.47 MB
+UCB+Budget       seed=7 round=19/50 selected=10 accepted=10 acc= 29.01% comm=  274.94 MB
+UCB+Budget       seed=7 round=20/50 selected=10 accepted=10 acc= 29.71% comm=  289.41 MB
+UCB+Budget       seed=7 round=21/50 selected=10 accepted=10 acc= 29.60% comm=  303.88 MB
+UCB+Budget       seed=7 round=22/50 selected=10 accepted=10 acc= 33.91% comm=  318.35 MB
+UCB+Budget       seed=7 round=23/50 selected=10 accepted=10 acc= 30.73% comm=  332.82 MB
+UCB+Budget       seed=7 round=24/50 selected=10 accepted=10 acc= 36.58% comm=  347.29 MB
+UCB+Budget       seed=7 round=25/50 selected=10 accepted=10 acc= 33.44% comm=  361.76 MB
+UCB+Budget       seed=7 round=26/50 selected=10 accepted=10 acc= 31.25% comm=  376.23 MB
+UCB+Budget       seed=7 round=27/50 selected=10 accepted=10 acc= 37.83% comm=  390.70 MB
+UCB+Budget       seed=7 round=28/50 selected=10 accepted=10 acc= 36.41% comm=  405.17 MB
+UCB+Budget       seed=7 round=29/50 selected=10 accepted=10 acc= 38.73% comm=  419.64 MB
+UCB+Budget       seed=7 round=30/50 selected=10 accepted=10 acc= 31.84% comm=  434.11 MB
+UCB+Budget       seed=7 round=31/50 selected=10 accepted=10 acc= 34.72% comm=  448.58 MB
+UCB+Budget       seed=7 budget exhausted before round 32.
+[worker] SUCCESS | UCB+Budget | budget=0.25 | seed=7 | acc=34.72% | MB=448.58 | rounds=31

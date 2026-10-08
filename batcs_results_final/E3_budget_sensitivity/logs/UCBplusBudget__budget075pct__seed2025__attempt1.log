@@ -1,0 +1,52 @@
+====================================================================================================
+E3 WORKER | method=UCB+Budget | budget_ratio=0.75 | seed=2025
+PID=24021 | device=mps
+E1 SHA256=40249a6d3407865692eca22841a7940445642c9661322ab3cbd3f4232a578410
+MPS fallback: enabled
+====================================================================================================
+model=0.723516 MB | B0=633.076072 MB | FedAvg envelope=723.515511 MB
+UCB+Budget       seed=2025 round=01/50 selected=10 accepted=10 acc= 10.04% comm=   14.47 MB
+UCB+Budget       seed=2025 round=02/50 selected=10 accepted=10 acc= 10.00% comm=   28.94 MB
+UCB+Budget       seed=2025 round=03/50 selected=10 accepted=10 acc= 15.23% comm=   43.41 MB
+UCB+Budget       seed=2025 round=04/50 selected=10 accepted=10 acc= 14.82% comm=   57.88 MB
+UCB+Budget       seed=2025 round=05/50 selected=10 accepted=10 acc= 15.77% comm=   72.35 MB
+UCB+Budget       seed=2025 round=06/50 selected=10 accepted=10 acc= 20.86% comm=   86.82 MB
+UCB+Budget       seed=2025 round=07/50 selected=10 accepted=10 acc= 22.91% comm=  101.29 MB
+UCB+Budget       seed=2025 round=08/50 selected=10 accepted=10 acc= 24.61% comm=  115.76 MB
+UCB+Budget       seed=2025 round=09/50 selected=10 accepted=10 acc= 24.79% comm=  130.23 MB
+UCB+Budget       seed=2025 round=10/50 selected=10 accepted=10 acc= 25.89% comm=  144.70 MB
+UCB+Budget       seed=2025 round=11/50 selected=10 accepted=10 acc= 27.95% comm=  159.17 MB
+UCB+Budget       seed=2025 round=12/50 selected=10 accepted=10 acc= 29.22% comm=  173.64 MB
+UCB+Budget       seed=2025 round=13/50 selected=10 accepted=10 acc= 26.68% comm=  188.11 MB
+UCB+Budget       seed=2025 round=14/50 selected=10 accepted=10 acc= 26.54% comm=  202.58 MB
+UCB+Budget       seed=2025 round=15/50 selected=10 accepted=10 acc= 30.74% comm=  217.05 MB
+UCB+Budget       seed=2025 round=16/50 selected=10 accepted=10 acc= 31.80% comm=  231.52 MB
+UCB+Budget       seed=2025 round=17/50 selected=10 accepted=10 acc= 33.15% comm=  246.00 MB
+UCB+Budget       seed=2025 round=18/50 selected=10 accepted=10 acc= 30.67% comm=  260.47 MB
+UCB+Budget       seed=2025 round=19/50 selected=10 accepted=10 acc= 31.79% comm=  274.94 MB
+UCB+Budget       seed=2025 round=20/50 selected=10 accepted=10 acc= 34.43% comm=  289.41 MB
+UCB+Budget       seed=2025 round=21/50 selected=10 accepted=10 acc= 36.94% comm=  303.88 MB
+UCB+Budget       seed=2025 round=22/50 selected=10 accepted=10 acc= 33.87% comm=  318.35 MB
+UCB+Budget       seed=2025 round=23/50 selected=10 accepted=10 acc= 36.93% comm=  332.82 MB
+UCB+Budget       seed=2025 round=24/50 selected=10 accepted=10 acc= 38.85% comm=  347.29 MB
+UCB+Budget       seed=2025 round=25/50 selected=10 accepted=10 acc= 35.69% comm=  361.76 MB
+UCB+Budget       seed=2025 round=26/50 selected=10 accepted=10 acc= 35.06% comm=  376.23 MB
+UCB+Budget       seed=2025 round=27/50 selected=10 accepted=10 acc= 36.31% comm=  390.70 MB
+UCB+Budget       seed=2025 round=28/50 selected=10 accepted=10 acc= 38.11% comm=  405.17 MB
+UCB+Budget       seed=2025 round=29/50 selected=10 accepted=10 acc= 38.77% comm=  419.64 MB
+UCB+Budget       seed=2025 round=30/50 selected=10 accepted=10 acc= 40.66% comm=  434.11 MB
+UCB+Budget       seed=2025 round=31/50 selected=10 accepted=10 acc= 39.92% comm=  448.58 MB
+UCB+Budget       seed=2025 round=32/50 selected=10 accepted=10 acc= 40.35% comm=  463.05 MB
+UCB+Budget       seed=2025 round=33/50 selected=10 accepted=10 acc= 42.13% comm=  477.52 MB
+UCB+Budget       seed=2025 round=34/50 selected=10 accepted=10 acc= 39.08% comm=  491.99 MB
+UCB+Budget       seed=2025 round=35/50 selected=10 accepted=10 acc= 42.96% comm=  506.46 MB
+UCB+Budget       seed=2025 round=36/50 selected=10 accepted=10 acc= 42.75% comm=  520.93 MB
+UCB+Budget       seed=2025 round=37/50 selected=10 accepted=10 acc= 44.74% comm=  535.40 MB
+UCB+Budget       seed=2025 round=38/50 selected=10 accepted=10 acc= 42.92% comm=  549.87 MB
+UCB+Budget       seed=2025 round=39/50 selected=10 accepted=10 acc= 42.21% comm=  564.34 MB
+UCB+Budget       seed=2025 round=40/50 selected=10 accepted=10 acc= 43.84% comm=  578.81 MB
+UCB+Budget       seed=2025 round=41/50 selected=10 accepted=10 acc= 42.44% comm=  593.28 MB
+UCB+Budget       seed=2025 round=42/50 selected=10 accepted=10 acc= 44.16% comm=  607.75 MB
+UCB+Budget       seed=2025 round=43/50 selected=10 accepted=10 acc= 45.07% comm=  622.22 MB
+UCB+Budget       seed=2025 cannot fund complete round 44. Stopping cleanly.
+[worker] SUCCESS | UCB+Budget | budget=0.75 | seed=2025 | acc=45.07% | MB=622.22 | rounds=43

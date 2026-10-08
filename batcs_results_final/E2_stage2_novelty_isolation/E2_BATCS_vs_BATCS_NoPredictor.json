@@ -1,0 +1,28 @@
+{
+  "method_a": "BATCS",
+  "method_b": "BATCS-NoPredictor",
+  "paired_seeds": [
+    7,
+    42,
+    123,
+    2024,
+    2025
+  ],
+  "accuracy_difference_per_seed_pp": {
+    "7": 1.6099999999999994,
+    "42": -7.280000000000001,
+    "123": 4.160000000000004,
+    "2024": 2.75,
+    "2025": 6.060000000000002
+  },
+  "accuracy_difference_mean_pp": 1.4600000000000009,
+  "communication_difference_per_seed_mb": {
+    "7": 0.0,
+    "42": 0.0,
+    "123": 0.0,
+    "2024": 0.0,
+    "2025": 0.0
+  },
+  "communication_difference_mean_mb": 0.0,
+  "note": "Descriptive comparison only; BATCS is not forced to outperform BATCS-NoPredictor. If BATCS is worse, that is reported honestly."
+}

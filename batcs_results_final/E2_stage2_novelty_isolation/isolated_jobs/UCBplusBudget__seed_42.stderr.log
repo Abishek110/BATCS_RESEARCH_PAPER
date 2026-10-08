@@ -1,0 +1,37 @@
+Traceback (most recent call last):
+  File "/Volumes/Abishek Personal/Downloads/E2.py", line 1247, in <module>
+    raise SystemExit(_worker_main(worker_method, worker_seed))
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Abishek Personal/Downloads/E2.py", line 975, in _worker_main
+    summary, rounds, predictor = run_e2_method(
+                                 ~~~~~~~~~~~~~^
+        method=method,
+        ^^^^^^^^^^^^^^
+    ...<7 lines>...
+        budget_mb=budget_mb,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Volumes/Abishek Personal/Downloads/E2.py", line 776, in run_e2_method
+    client_validation_accuracy = E1.evaluate_accuracy(
+        validation_model, server_val_loader, E1.DEVICE
+    )
+  File "/Volumes/Abishek Personal/Downloads/.venv/lib/python3.14/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/Volumes/Abishek Personal/Downloads/E1.py", line 784, in evaluate_accuracy
+    for x, y in loader:
+                ^^^^^^
+  File "/Volumes/Abishek Personal/Downloads/.venv/lib/python3.14/site-packages/torch/utils/data/dataloader.py", line 725, in __next__
+    data = self._next_data()
+  File "/Volumes/Abishek Personal/Downloads/.venv/lib/python3.14/site-packages/torch/utils/data/dataloader.py", line 785, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Volumes/Abishek Personal/Downloads/.venv/lib/python3.14/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "/Volumes/Abishek Personal/Downloads/.venv/lib/python3.14/site-packages/torch/utils/data/dataset.py", line 443, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+            ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Abishek Personal/Downloads/.venv/lib/python3.14/site-packages/torchvision/datasets/cifar.py", line 116, in __getitem__
+    img = Image.fromarray(img)
+  File "/Volumes/Abishek Personal/Downloads/.venv/lib/python3.14/site-packages/PIL/Image.py", line 3455, in fromarray
+    obj = obj.tobytes()
+KeyboardInterrupt

@@ -1,0 +1,59 @@
+====================================================================================================
+E3 WORKER | method=UCB+Budget | budget_ratio=1.00 | seed=2024
+PID=24223 | device=mps
+E1 SHA256=40249a6d3407865692eca22841a7940445642c9661322ab3cbd3f4232a578410
+MPS fallback: enabled
+====================================================================================================
+model=0.723516 MB | B0=723.515511 MB | FedAvg envelope=723.515511 MB
+UCB+Budget       seed=2024 round=01/50 selected=10 accepted=10 acc= 10.09% comm=   14.47 MB
+UCB+Budget       seed=2024 round=02/50 selected=10 accepted=10 acc= 10.00% comm=   28.94 MB
+UCB+Budget       seed=2024 round=03/50 selected=10 accepted=10 acc= 17.07% comm=   43.41 MB
+UCB+Budget       seed=2024 round=04/50 selected=10 accepted=10 acc= 19.85% comm=   57.88 MB
+UCB+Budget       seed=2024 round=05/50 selected=10 accepted=10 acc= 16.26% comm=   72.35 MB
+UCB+Budget       seed=2024 round=06/50 selected=10 accepted=10 acc= 16.45% comm=   86.82 MB
+UCB+Budget       seed=2024 round=07/50 selected=10 accepted=10 acc= 16.19% comm=  101.29 MB
+UCB+Budget       seed=2024 round=08/50 selected=10 accepted=10 acc= 15.71% comm=  115.76 MB
+UCB+Budget       seed=2024 round=09/50 selected=10 accepted=10 acc= 22.86% comm=  130.23 MB
+UCB+Budget       seed=2024 round=10/50 selected=10 accepted=10 acc= 25.25% comm=  144.70 MB
+UCB+Budget       seed=2024 round=11/50 selected=10 accepted=10 acc= 22.65% comm=  159.17 MB
+UCB+Budget       seed=2024 round=12/50 selected=10 accepted=10 acc= 21.26% comm=  173.64 MB
+UCB+Budget       seed=2024 round=13/50 selected=10 accepted=10 acc= 23.48% comm=  188.11 MB
+UCB+Budget       seed=2024 round=14/50 selected=10 accepted=10 acc= 24.38% comm=  202.58 MB
+UCB+Budget       seed=2024 round=15/50 selected=10 accepted=10 acc= 24.89% comm=  217.05 MB
+UCB+Budget       seed=2024 round=16/50 selected=10 accepted=10 acc= 23.06% comm=  231.52 MB
+UCB+Budget       seed=2024 round=17/50 selected=10 accepted=10 acc= 28.39% comm=  246.00 MB
+UCB+Budget       seed=2024 round=18/50 selected=10 accepted=10 acc= 27.20% comm=  260.47 MB
+UCB+Budget       seed=2024 round=19/50 selected=10 accepted=10 acc= 24.06% comm=  274.94 MB
+UCB+Budget       seed=2024 round=20/50 selected=10 accepted=10 acc= 26.72% comm=  289.41 MB
+UCB+Budget       seed=2024 round=21/50 selected=10 accepted=10 acc= 30.11% comm=  303.88 MB
+UCB+Budget       seed=2024 round=22/50 selected=10 accepted=10 acc= 29.47% comm=  318.35 MB
+UCB+Budget       seed=2024 round=23/50 selected=10 accepted=10 acc= 29.71% comm=  332.82 MB
+UCB+Budget       seed=2024 round=24/50 selected=10 accepted=10 acc= 27.34% comm=  347.29 MB
+UCB+Budget       seed=2024 round=25/50 selected=10 accepted=10 acc= 33.78% comm=  361.76 MB
+UCB+Budget       seed=2024 round=26/50 selected=10 accepted=10 acc= 31.40% comm=  376.23 MB
+UCB+Budget       seed=2024 round=27/50 selected=10 accepted=10 acc= 26.08% comm=  390.70 MB
+UCB+Budget       seed=2024 round=28/50 selected=10 accepted=10 acc= 32.95% comm=  405.17 MB
+UCB+Budget       seed=2024 round=29/50 selected=10 accepted=10 acc= 35.49% comm=  419.64 MB
+UCB+Budget       seed=2024 round=30/50 selected=10 accepted=10 acc= 31.24% comm=  434.11 MB
+UCB+Budget       seed=2024 round=31/50 selected=10 accepted=10 acc= 36.98% comm=  448.58 MB
+UCB+Budget       seed=2024 round=32/50 selected=10 accepted=10 acc= 33.56% comm=  463.05 MB
+UCB+Budget       seed=2024 round=33/50 selected=10 accepted=10 acc= 36.07% comm=  477.52 MB
+UCB+Budget       seed=2024 round=34/50 selected=10 accepted=10 acc= 35.70% comm=  491.99 MB
+UCB+Budget       seed=2024 round=35/50 selected=10 accepted=10 acc= 36.80% comm=  506.46 MB
+UCB+Budget       seed=2024 round=36/50 selected=10 accepted=10 acc= 36.02% comm=  520.93 MB
+UCB+Budget       seed=2024 round=37/50 selected=10 accepted=10 acc= 35.90% comm=  535.40 MB
+UCB+Budget       seed=2024 round=38/50 selected=10 accepted=10 acc= 35.92% comm=  549.87 MB
+UCB+Budget       seed=2024 round=39/50 selected=10 accepted=10 acc= 36.39% comm=  564.34 MB
+UCB+Budget       seed=2024 round=40/50 selected=10 accepted=10 acc= 36.60% comm=  578.81 MB
+UCB+Budget       seed=2024 round=41/50 selected=10 accepted=10 acc= 39.87% comm=  593.28 MB
+UCB+Budget       seed=2024 round=42/50 selected=10 accepted=10 acc= 39.74% comm=  607.75 MB
+UCB+Budget       seed=2024 round=43/50 selected=10 accepted=10 acc= 39.50% comm=  622.22 MB
+UCB+Budget       seed=2024 round=44/50 selected=10 accepted=10 acc= 38.00% comm=  636.69 MB
+UCB+Budget       seed=2024 round=45/50 selected=10 accepted=10 acc= 40.07% comm=  651.16 MB
+UCB+Budget       seed=2024 round=46/50 selected=10 accepted=10 acc= 38.71% comm=  665.63 MB
+UCB+Budget       seed=2024 round=47/50 selected=10 accepted=10 acc= 41.14% comm=  680.10 MB
+UCB+Budget       seed=2024 round=48/50 selected=10 accepted=10 acc= 40.11% comm=  694.57 MB
+UCB+Budget       seed=2024 round=49/50 selected=10 accepted=10 acc= 44.28% comm=  709.05 MB
+UCB+Budget       seed=2024 round=50/50 selected=10 accepted=10 acc= 40.27% comm=  723.52 MB
+    UCB+Budget: budget cannot fund another complete Stage-1 downlink.
+[worker] SUCCESS | UCB+Budget | budget=1.00 | seed=2024 | acc=40.27% | MB=723.52 | rounds=50

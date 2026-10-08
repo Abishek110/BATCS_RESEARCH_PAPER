@@ -1,0 +1,67 @@
+{
+  "experiment": "E4_noniid_sensitivity",
+  "stage2_metric_definition": "(1 - BATCS_total_MB / UCB+Budget_total_MB) * 100",
+  "fixed_budget_ratio": 0.5,
+  "comparisons": [
+    {
+      "alpha": 1.0,
+      "paired_seeds": [
+        7,
+        42,
+        123,
+        2024,
+        2025
+      ],
+      "accuracy_difference_mean_pp": -1.0499999999999985,
+      "accuracy_difference_std_pp": 4.014567224496311,
+      "communication_difference_mean_mb": 6.679486274719238,
+      "communication_difference_std_mb": 0.0,
+      "stage2_communication_reduction_pct": -1.2475659017592733,
+      "batcs_mean_accuracy": 41.44,
+      "ucb_budget_mean_accuracy": 42.489999999999995,
+      "batcs_mean_communication_mb": 542.0809640884399,
+      "ucb_budget_mean_communication_mb": 535.4014778137207,
+      "note": "Descriptive E4 comparison; five paired seeds; no superiority is imposed."
+    },
+    {
+      "alpha": 0.5,
+      "paired_seeds": [
+        7,
+        42,
+        123,
+        2024,
+        2025
+      ],
+      "accuracy_difference_mean_pp": 0.7160000000000011,
+      "accuracy_difference_std_pp": 5.08142991686395,
+      "communication_difference_mean_mb": 6.679486274719238,
+      "communication_difference_std_mb": 0.0,
+      "stage2_communication_reduction_pct": -1.2475659017592733,
+      "batcs_mean_accuracy": 41.83,
+      "ucb_budget_mean_accuracy": 41.114,
+      "batcs_mean_communication_mb": 542.0809640884399,
+      "ucb_budget_mean_communication_mb": 535.4014778137207,
+      "note": "Descriptive E4 comparison; five paired seeds; no superiority is imposed."
+    },
+    {
+      "alpha": 0.1,
+      "paired_seeds": [
+        7,
+        42,
+        123,
+        2024,
+        2025
+      ],
+      "accuracy_difference_mean_pp": -3.1960000000000006,
+      "accuracy_difference_std_pp": 4.688313129474182,
+      "communication_difference_mean_mb": 6.679486274719238,
+      "communication_difference_std_mb": 0.0,
+      "stage2_communication_reduction_pct": -1.2475659017592733,
+      "batcs_mean_accuracy": 22.77,
+      "ucb_budget_mean_accuracy": 25.965999999999998,
+      "batcs_mean_communication_mb": 542.0809640884399,
+      "ucb_budget_mean_communication_mb": 535.4014778137207,
+      "note": "Descriptive E4 comparison; five paired seeds; no superiority is imposed."
+    }
+  ]
+}

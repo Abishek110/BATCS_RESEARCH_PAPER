@@ -1,0 +1,40 @@
+====================================================================================================
+E3 WORKER | method=Random+Budget | budget_ratio=0.25 | seed=2024
+PID=20753 | device=mps
+E1 SHA256=40249a6d3407865692eca22841a7940445642c9661322ab3cbd3f4232a578410
+MPS fallback: enabled
+====================================================================================================
+model=0.723516 MB | B0=452.197194 MB | FedAvg envelope=723.515511 MB
+Random+Budget    seed=2024 round=01/50 selected=10 accepted=10 acc= 13.15% comm=   14.47 MB
+Random+Budget    seed=2024 round=02/50 selected=10 accepted=10 acc= 14.95% comm=   28.94 MB
+Random+Budget    seed=2024 round=03/50 selected=10 accepted=10 acc= 10.00% comm=   43.41 MB
+Random+Budget    seed=2024 round=04/50 selected=10 accepted=10 acc= 11.96% comm=   57.88 MB
+Random+Budget    seed=2024 round=05/50 selected=10 accepted=10 acc= 16.89% comm=   72.35 MB
+Random+Budget    seed=2024 round=06/50 selected=10 accepted=10 acc= 20.23% comm=   86.82 MB
+Random+Budget    seed=2024 round=07/50 selected=10 accepted=10 acc= 22.37% comm=  101.29 MB
+Random+Budget    seed=2024 round=08/50 selected=10 accepted=10 acc= 23.97% comm=  115.76 MB
+Random+Budget    seed=2024 round=09/50 selected=10 accepted=10 acc= 21.82% comm=  130.23 MB
+Random+Budget    seed=2024 round=10/50 selected=10 accepted=10 acc= 22.55% comm=  144.70 MB
+Random+Budget    seed=2024 round=11/50 selected=10 accepted=10 acc= 19.53% comm=  159.17 MB
+Random+Budget    seed=2024 round=12/50 selected=10 accepted=10 acc= 20.90% comm=  173.64 MB
+Random+Budget    seed=2024 round=13/50 selected=10 accepted=10 acc= 25.43% comm=  188.11 MB
+Random+Budget    seed=2024 round=14/50 selected=10 accepted=10 acc= 25.88% comm=  202.58 MB
+Random+Budget    seed=2024 round=15/50 selected=10 accepted=10 acc= 24.88% comm=  217.05 MB
+Random+Budget    seed=2024 round=16/50 selected=10 accepted=10 acc= 26.73% comm=  231.52 MB
+Random+Budget    seed=2024 round=17/50 selected=10 accepted=10 acc= 18.46% comm=  246.00 MB
+Random+Budget    seed=2024 round=18/50 selected=10 accepted=10 acc= 27.08% comm=  260.47 MB
+Random+Budget    seed=2024 round=19/50 selected=10 accepted=10 acc= 28.28% comm=  274.94 MB
+Random+Budget    seed=2024 round=20/50 selected=10 accepted=10 acc= 25.88% comm=  289.41 MB
+Random+Budget    seed=2024 round=21/50 selected=10 accepted=10 acc= 22.11% comm=  303.88 MB
+Random+Budget    seed=2024 round=22/50 selected=10 accepted=10 acc= 29.94% comm=  318.35 MB
+Random+Budget    seed=2024 round=23/50 selected=10 accepted=10 acc= 31.44% comm=  332.82 MB
+Random+Budget    seed=2024 round=24/50 selected=10 accepted=10 acc= 32.03% comm=  347.29 MB
+Random+Budget    seed=2024 round=25/50 selected=10 accepted=10 acc= 31.53% comm=  361.76 MB
+Random+Budget    seed=2024 round=26/50 selected=10 accepted=10 acc= 27.92% comm=  376.23 MB
+Random+Budget    seed=2024 round=27/50 selected=10 accepted=10 acc= 34.18% comm=  390.70 MB
+Random+Budget    seed=2024 round=28/50 selected=10 accepted=10 acc= 25.45% comm=  405.17 MB
+Random+Budget    seed=2024 round=29/50 selected=10 accepted=10 acc= 35.42% comm=  419.64 MB
+Random+Budget    seed=2024 round=30/50 selected=10 accepted=10 acc= 32.92% comm=  434.11 MB
+Random+Budget    seed=2024 round=31/50 selected=10 accepted=10 acc= 33.58% comm=  448.58 MB
+Random+Budget    seed=2024 budget exhausted before round 32.
+[worker] SUCCESS | Random+Budget | budget=0.25 | seed=2024 | acc=33.58% | MB=448.58 | rounds=31

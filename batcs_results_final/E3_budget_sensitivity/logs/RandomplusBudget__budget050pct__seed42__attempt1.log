@@ -1,0 +1,51 @@
+====================================================================================================
+E3 WORKER | method=Random+Budget | budget_ratio=0.50 | seed=42
+PID=18983 | device=mps
+E1 SHA256=40249a6d3407865692eca22841a7940445642c9661322ab3cbd3f4232a578410
+MPS fallback: enabled
+====================================================================================================
+model=0.723516 MB | B0=542.636633 MB | FedAvg envelope=723.515511 MB
+Random+Budget    seed=42 round=01/50 selected=10 accepted=10 acc= 10.00% comm=   14.47 MB
+Random+Budget    seed=42 round=02/50 selected=10 accepted=10 acc= 10.73% comm=   28.94 MB
+Random+Budget    seed=42 round=03/50 selected=10 accepted=10 acc= 10.00% comm=   43.41 MB
+Random+Budget    seed=42 round=04/50 selected=10 accepted=10 acc= 16.91% comm=   57.88 MB
+Random+Budget    seed=42 round=05/50 selected=10 accepted=10 acc= 14.21% comm=   72.35 MB
+Random+Budget    seed=42 round=06/50 selected=10 accepted=10 acc= 22.67% comm=   86.82 MB
+Random+Budget    seed=42 round=07/50 selected=10 accepted=10 acc= 16.95% comm=  101.29 MB
+Random+Budget    seed=42 round=08/50 selected=10 accepted=10 acc= 22.65% comm=  115.76 MB
+Random+Budget    seed=42 round=09/50 selected=10 accepted=10 acc= 16.78% comm=  130.23 MB
+Random+Budget    seed=42 round=10/50 selected=10 accepted=10 acc= 21.91% comm=  144.70 MB
+Random+Budget    seed=42 round=11/50 selected=10 accepted=10 acc= 24.11% comm=  159.17 MB
+Random+Budget    seed=42 round=12/50 selected=10 accepted=10 acc= 23.68% comm=  173.64 MB
+Random+Budget    seed=42 round=13/50 selected=10 accepted=10 acc= 23.67% comm=  188.11 MB
+Random+Budget    seed=42 round=14/50 selected=10 accepted=10 acc= 22.59% comm=  202.58 MB
+Random+Budget    seed=42 round=15/50 selected=10 accepted=10 acc= 27.59% comm=  217.05 MB
+Random+Budget    seed=42 round=16/50 selected=10 accepted=10 acc= 22.46% comm=  231.52 MB
+Random+Budget    seed=42 round=17/50 selected=10 accepted=10 acc= 26.64% comm=  246.00 MB
+Random+Budget    seed=42 round=18/50 selected=10 accepted=10 acc= 31.30% comm=  260.47 MB
+Random+Budget    seed=42 round=19/50 selected=10 accepted=10 acc= 27.12% comm=  274.94 MB
+Random+Budget    seed=42 round=20/50 selected=10 accepted=10 acc= 26.19% comm=  289.41 MB
+Random+Budget    seed=42 round=21/50 selected=10 accepted=10 acc= 25.60% comm=  303.88 MB
+Random+Budget    seed=42 round=22/50 selected=10 accepted=10 acc= 28.12% comm=  318.35 MB
+Random+Budget    seed=42 round=23/50 selected=10 accepted=10 acc= 31.92% comm=  332.82 MB
+Random+Budget    seed=42 round=24/50 selected=10 accepted=10 acc= 31.96% comm=  347.29 MB
+Random+Budget    seed=42 round=25/50 selected=10 accepted=10 acc= 29.87% comm=  361.76 MB
+Random+Budget    seed=42 round=26/50 selected=10 accepted=10 acc= 28.33% comm=  376.23 MB
+Random+Budget    seed=42 round=27/50 selected=10 accepted=10 acc= 34.51% comm=  390.70 MB
+Random+Budget    seed=42 round=28/50 selected=10 accepted=10 acc= 34.20% comm=  405.17 MB
+Random+Budget    seed=42 round=29/50 selected=10 accepted=10 acc= 32.76% comm=  419.64 MB
+Random+Budget    seed=42 round=30/50 selected=10 accepted=10 acc= 35.74% comm=  434.11 MB
+Random+Budget    seed=42 round=31/50 selected=10 accepted=10 acc= 34.92% comm=  448.58 MB
+Random+Budget    seed=42 round=32/50 selected=10 accepted=10 acc= 37.55% comm=  463.05 MB
+Random+Budget    seed=42 round=33/50 selected=10 accepted=10 acc= 34.73% comm=  477.52 MB
+Random+Budget    seed=42 round=34/50 selected=10 accepted=10 acc= 37.12% comm=  491.99 MB
+Random+Budget    seed=42 round=35/50 selected=10 accepted=10 acc= 37.03% comm=  506.46 MB
+Random+Budget    seed=42 round=36/50 selected=10 accepted=10 acc= 34.21% comm=  520.93 MB
+Random+Budget    seed=42 round=37/50 selected=10 accepted=10 acc= 39.22% comm=  535.40 MB
+Random+Budget    seed=42 cannot fund complete round 38. Stopping cleanly.
+[worker] SUCCESS | Random+Budget | budget=0.50 | seed=42 | acc=39.22% | MB=535.40 | rounds=37
+Traceback (most recent call last):
+  File "/Volumes/Abishek Personal/Downloads/E3.py", line 644, in <module>
+    sys.exit(0)
+    ~~~~~~~~^^^
+SystemExit: 0

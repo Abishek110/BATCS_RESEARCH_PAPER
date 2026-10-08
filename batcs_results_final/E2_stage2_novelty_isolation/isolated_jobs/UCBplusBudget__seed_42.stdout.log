@@ -1,0 +1,15 @@
+====================================================================================================
+E2 ISOLATED WORKER | UCB+Budget | seed=42
+PID=18023 | device=mps
+MPS fallback: enabled
+====================================================================================================
+UCB+Budget             seed=42 round=01/50 selected=10 accepted=10 acc= 13.66% comm=   14.47 MB
+UCB+Budget             seed=42 round=02/50 selected=10 accepted=10 acc= 15.17% comm=   28.95 MB
+UCB+Budget             seed=42 round=03/50 selected=10 accepted=10 acc= 10.00% comm=   43.42 MB
+UCB+Budget             seed=42 round=04/50 selected=10 accepted=10 acc= 10.64% comm=   57.90 MB
+UCB+Budget             seed=42 round=05/50 selected=10 accepted=10 acc= 15.33% comm=   72.37 MB
+UCB+Budget             seed=42 round=06/50 selected=10 accepted=10 acc= 18.46% comm=   86.84 MB
+UCB+Budget             seed=42 round=07/50 selected=10 accepted=10 acc= 23.66% comm=  101.32 MB
+UCB+Budget             seed=42 round=08/50 selected=10 accepted=10 acc= 22.07% comm=  115.79 MB
+UCB+Budget             seed=42 round=09/50 selected=10 accepted=10 acc= 23.39% comm=  130.27 MB
+UCB+Budget             seed=42 round=10/50 selected=10 accepted=10 acc= 22.38% comm=  144.74 MB

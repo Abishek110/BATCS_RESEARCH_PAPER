@@ -1,0 +1,147 @@
+{
+  "experiment": "E5_preview_predictor_evaluation",
+  "e5_protocol_version": "2.0",
+  "analysis_mode": "read_only_post_hoc",
+  "uses_fl_training": false,
+  "uses_torch": false,
+  "uses_mps": false,
+  "uses_test_accuracy_as_predictor_target": false,
+  "primary_target": "Observed_Marginal_Utility_pp",
+  "secondary_target": "Isolated_Utility_pp",
+  "prediction_field": "Predicted_Utility_pp",
+  "uncertainty_field": "Uncertainty_pp",
+  "frozen_e1_sha256_expected": "40249a6d3407865692eca22841a7940445642c9661322ab3cbd3f4232a578410",
+  "source_metadata": [
+    {
+      "experiment": "E1",
+      "path": "/Volumes/Abishek Personal/Downloads/batcs_results_final/E1_BATCS_predictor.csv",
+      "sha256": "4d3f87c786d52d5d67799fae5559787648afb45c0fc37ee0d6e9752a2e50ac57",
+      "row_count": 2500,
+      "manifest_present": false,
+      "manifest_validation": [
+        "source_manifest_missing"
+      ],
+      "source_e1_sha256": null
+    },
+    {
+      "experiment": "E2",
+      "path": "/Volumes/Abishek Personal/Downloads/batcs_results_final/E2_stage2_novelty_isolation/E2_BATCS_predictor.csv",
+      "sha256": "4d3f87c786d52d5d67799fae5559787648afb45c0fc37ee0d6e9752a2e50ac57",
+      "row_count": 2500,
+      "manifest_present": true,
+      "manifest_validation": [],
+      "source_e1_sha256": "40249a6d3407865692eca22841a7940445642c9661322ab3cbd3f4232a578410"
+    },
+    {
+      "experiment": "E3",
+      "path": "/Volumes/Abishek Personal/Downloads/batcs_results_final/E3_budget_sensitivity/E3_BATCS_predictor.csv",
+      "sha256": "55ba3b69a0e2489251c868895f6feb581b4727edae9ed3c27d1c9aea458aa70f",
+      "row_count": 10000,
+      "manifest_present": true,
+      "manifest_validation": [],
+      "source_e1_sha256": "40249a6d3407865692eca22841a7940445642c9661322ab3cbd3f4232a578410"
+    },
+    {
+      "experiment": "E4",
+      "path": "/Volumes/Abishek Personal/Downloads/batcs_results_final/E4_noniid_sensitivity/E4_BATCS_predictor.csv",
+      "sha256": "9593e4a7682739a960ec3d59ddbb87d22e3682e69a5f6a495b7deacdb5cdfe71",
+      "row_count": 7500,
+      "manifest_present": true,
+      "manifest_validation": [],
+      "source_e1_sha256": "40249a6d3407865692eca22841a7940445642c9661322ab3cbd3f4232a578410"
+    }
+  ],
+  "row_count_combined": 22500,
+  "job_count": 45,
+  "coverage_validation": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "E1_exists",
+        "passed": true,
+        "detail": "rows=2500"
+      },
+      {
+        "name": "E1_five_seeds",
+        "passed": true,
+        "detail": "observed=[7, 42, 123, 2024, 2025], expected=[42, 123, 2024, 7, 2025] (order-insensitive)"
+      },
+      {
+        "name": "E1_alpha",
+        "passed": true,
+        "detail": "observed=[0.5]"
+      },
+      {
+        "name": "E1_budget",
+        "passed": true,
+        "detail": "observed=[0.5]"
+      },
+      {
+        "name": "E2_exists",
+        "passed": true,
+        "detail": "rows=2500"
+      },
+      {
+        "name": "E2_five_frozen_seeds",
+        "passed": true,
+        "detail": "observed=[7, 42, 123, 2024, 2025], expected=[42, 123, 2024, 7, 2025] (order-insensitive)"
+      },
+      {
+        "name": "E2_budget",
+        "passed": true,
+        "detail": "observed=[0.5]"
+      },
+      {
+        "name": "E3_exists",
+        "passed": true,
+        "detail": "rows=10000"
+      },
+      {
+        "name": "E3_five_seeds",
+        "passed": true,
+        "detail": "observed=[7, 42, 123, 2024, 2025], expected=[42, 123, 2024, 7, 2025] (order-insensitive)"
+      },
+      {
+        "name": "E3_four_budget_ratios",
+        "passed": true,
+        "detail": "observed=[0.25, 0.5, 0.75, 1.0], expected=[0.25, 0.5, 0.75, 1.0]"
+      },
+      {
+        "name": "E4_exists",
+        "passed": true,
+        "detail": "rows=7500"
+      },
+      {
+        "name": "E4_five_seeds",
+        "passed": true,
+        "detail": "observed=[7, 42, 123, 2024, 2025], expected=[42, 123, 2024, 7, 2025] (order-insensitive)"
+      },
+      {
+        "name": "E4_three_alphas",
+        "passed": true,
+        "detail": "observed=[0.1, 0.5, 1.0], expected=[0.1, 0.5, 1.0] (order-insensitive)"
+      }
+    ]
+  },
+  "plot_paths": [
+    "/Volumes/Abishek Personal/Downloads/batcs_results_final/E5_preview_predictor_evaluation/plots/E5_predicted_vs_observed_primary.png",
+    "/Volumes/Abishek Personal/Downloads/batcs_results_final/E5_preview_predictor_evaluation/plots/E5_accepted_vs_rejected_isolated_utility.png",
+    "/Volumes/Abishek Personal/Downloads/batcs_results_final/E5_preview_predictor_evaluation/plots/E5_uncertainty_by_decile.png",
+    "/Volumes/Abishek Personal/Downloads/batcs_results_final/E5_preview_predictor_evaluation/plots/E5_primary_mae_by_budget.png",
+    "/Volumes/Abishek Personal/Downloads/batcs_results_final/E5_preview_predictor_evaluation/plots/E5_primary_mae_by_alpha.png"
+  ],
+  "ranking_rows": 45,
+  "decision_rows": 45,
+  "uncertainty_calibration_rows": 450,
+  "timestamp_unix": 1791470429.880807,
+  "scientific_notes": [
+    "Primary target is Observed_Marginal_Utility_pp, matching the post-decision aggregate-marginal target used for predictor supervision in the frozen E1 implementation.",
+    "Primary target is missing for rejected clients by construction; E5 evaluates that target on observed accepted-client labels and reports the censoring fraction explicitly.",
+    "Isolated_Utility_pp is evaluated separately as a diagnostic available for all selected clients.",
+    "E5 does not fit or recalibrate a replacement predictor; the stored online predictions are evaluated as generated.",
+    "Decision-quality diagnostics use Isolated_Utility_pp only as a fully observed secondary counterfactual diagnostic; they are not substituted for the online aggregate-marginal target.",
+    "Ranking metrics are evaluated only where the primary post-decision label is actually observed; rejected clients are never assigned an imputed primary target.",
+    "Uncertainty calibration is diagnostic only; E5 does not alter the stored online uncertainty values.",
+    "No final test accuracy is used to score, fit, or select the predictor."
+  ]
+}

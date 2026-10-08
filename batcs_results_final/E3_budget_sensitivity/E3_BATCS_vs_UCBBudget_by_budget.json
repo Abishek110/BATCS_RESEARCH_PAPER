@@ -1,0 +1,86 @@
+{
+  "experiment": "E3_budget_sensitivity",
+  "stage2_metric_definition": "(1 - BATCS_total_MB / UCB+Budget_total_MB) * 100",
+  "comparisons": [
+    {
+      "budget_ratio": 0.25,
+      "paired_seeds": [
+        7,
+        42,
+        123,
+        2024,
+        2025
+      ],
+      "accuracy_difference_mean_pp": -9.08,
+      "accuracy_difference_std_pp": 8.081135440023264,
+      "communication_difference_mean_mb": 3.061908721923828,
+      "communication_difference_std_mb": 0.0,
+      "stage2_communication_reduction_pct": -0.6825786569384817,
+      "batcs_mean_accuracy": 28.708000000000006,
+      "ucb_budget_mean_accuracy": 37.788,
+      "batcs_mean_communication_mb": 451.6415252685547,
+      "ucb_budget_mean_communication_mb": 448.57961654663086,
+      "note": "Descriptive E3 comparison; five paired seeds; no superiority is imposed."
+    },
+    {
+      "budget_ratio": 0.5,
+      "paired_seeds": [
+        7,
+        42,
+        123,
+        2024,
+        2025
+      ],
+      "accuracy_difference_mean_pp": 0.7160000000000011,
+      "accuracy_difference_std_pp": 5.08142991686395,
+      "communication_difference_mean_mb": 6.679486274719238,
+      "communication_difference_std_mb": 0.0,
+      "stage2_communication_reduction_pct": -1.2475659017592733,
+      "batcs_mean_accuracy": 41.83,
+      "ucb_budget_mean_accuracy": 41.114,
+      "batcs_mean_communication_mb": 542.0809640884399,
+      "ucb_budget_mean_communication_mb": 535.4014778137207,
+      "note": "Descriptive E3 comparison; five paired seeds; no superiority is imposed."
+    },
+    {
+      "budget_ratio": 0.75,
+      "paired_seeds": [
+        7,
+        42,
+        123,
+        2024,
+        2025
+      ],
+      "accuracy_difference_mean_pp": -1.4820000000000007,
+      "accuracy_difference_std_pp": 3.6887423330994515,
+      "communication_difference_mean_mb": -79.12945327758788,
+      "communication_difference_std_mb": 0.39628576583807645,
+      "stage2_communication_reduction_pct": 12.717210735695506,
+      "batcs_mean_accuracy": 41.541999999999994,
+      "ucb_budget_mean_accuracy": 43.023999999999994,
+      "batcs_mean_communication_mb": 543.0938858032226,
+      "ucb_budget_mean_communication_mb": 622.2233390808105,
+      "note": "Descriptive E3 comparison; five paired seeds; no superiority is imposed."
+    },
+    {
+      "budget_ratio": 1.0,
+      "paired_seeds": [
+        7,
+        42,
+        123,
+        2024,
+        2025
+      ],
+      "accuracy_difference_mean_pp": -1.7800000000000011,
+      "accuracy_difference_std_pp": 5.01771362275688,
+      "communication_difference_mean_mb": -180.42162475585937,
+      "communication_difference_std_mb": 0.39628576583807645,
+      "stage2_communication_reduction_pct": 24.936801232698137,
+      "batcs_mean_accuracy": 41.541999999999994,
+      "ucb_budget_mean_accuracy": 43.322,
+      "batcs_mean_communication_mb": 543.0938858032226,
+      "ucb_budget_mean_communication_mb": 723.515510559082,
+      "note": "Descriptive E3 comparison; five paired seeds; no superiority is imposed."
+    }
+  ]
+}

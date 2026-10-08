@@ -1,0 +1,7 @@
+Dirichlet_Alpha,Method,Accuracy,Total_MB,Rounds_Completed,Reference_Envelope_Reduction_pct,Stage2_vs_UCBBudget_Reduction_pct,Accuracy_per_MB
+1.0,UCB+Budget,42.49 ± 2.49,535.40 ± 0.00,37,26.00,0.00,0.0794
+1.0,BATCS,41.44 ± 2.37,542.08 ± 0.00,50,25.08,-1.25,0.0764
+0.5,UCB+Budget,41.11 ± 3.34,535.40 ± 0.00,37,26.00,0.00,0.0768
+0.5,BATCS,41.83 ± 4.67,542.08 ± 0.00,50,25.08,-1.25,0.0772
+0.1,UCB+Budget,25.97 ± 6.65,535.40 ± 0.00,37,26.00,0.00,0.0485
+0.1,BATCS,22.77 ± 8.83,542.08 ± 0.00,50,25.08,-1.25,0.0420
